@@ -1,0 +1,48 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="server:war exploded">
+    <output-path>$PROJECT_DIR$/server/target/server-1.0-SNAPSHOT</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>true</exploded>
+        <module>server</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="server" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="archive" name="client-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="client" />
+          </element>
+          <element id="library" level="project" name="Maven: org.projectlombok:lombok:1.18.24" />
+          <element id="library" level="project" name="Maven: org.glassfish.jaxb:jaxb-xjc:2.3.2" />
+          <element id="library" level="project" name="Maven: org.glassfish.jaxb:jaxb-runtime:2.3.2" />
+          <element id="library" level="project" name="Maven: jakarta.xml.bind:jakarta.xml.bind-api:2.3.2" />
+          <element id="library" level="project" name="Maven: org.glassfish.jaxb:txw2:2.3.2" />
+          <element id="library" level="project" name="Maven: org.jvnet.staxex:stax-ex:1.8.1" />
+          <element id="library" level="project" name="Maven: com.sun.xml.fastinfoset:FastInfoset:1.2.16" />
+          <element id="library" level="project" name="Maven: jakarta.activation:jakarta.activation-api:1.2.1" />
+          <element id="library" level="project" name="Maven: org.glassfish.jaxb:xsom:2.3.2" />
+          <element id="library" level="project" name="Maven: org.glassfish.jaxb:codemodel:2.3.2" />
+          <element id="library" level="project" name="Maven: com.sun.xml.bind.external:rngom:2.3.2" />
+          <element id="library" level="project" name="Maven: com.sun.xml.dtd-parser:dtd-parser:1.4.1" />
+          <element id="library" level="project" name="Maven: com.sun.istack:istack-commons-tools:3.0.8" />
+          <element id="library" level="project" name="Maven: org.apache.ant:ant:1.10.5" />
+          <element id="library" level="project" name="Maven: org.apache.ant:ant-launcher:1.10.5" />
+          <element id="library" level="project" name="Maven: com.sun.istack:istack-commons-runtime:3.0.8" />
+          <element id="library" level="project" name="Maven: com.sun.xml.bind.external:relaxng-datatype:2.3.2" />
+          <element id="library" level="project" name="Maven: org.mindrot:jbcrypt:0.4" />
+          <element id="library" level="project" name="Maven: jakarta.platform:jakarta.jakartaee-api:8.0.0" />
+          <element id="library" level="project" name="Maven: javax.persistence:javax.persistence-api:2.2" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/server/target/server-1.0-SNAPSHOT/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="server/web/Web" />
+    </root>
+  </artifact>
+</component>
