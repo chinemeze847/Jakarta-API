@@ -1,4 +1,4 @@
-# Tech11 recruitment task
+# Jakarta EE APP
 
 - Payara Server.
 - Maven.
